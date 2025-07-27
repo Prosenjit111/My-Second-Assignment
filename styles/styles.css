@@ -82,8 +82,13 @@
 }
 
 main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section{
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 230px;
 }
 .section-title{
     font-weight: bold;
@@ -95,8 +100,8 @@ main{
 }
 
 .plants-container{
-    max-width: 270px;
-    max-height: 484.94px;
+    /* max-width: 270px;
+    max-height: 484.94px; */
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -122,3 +127,103 @@ main{
     padding: 10px 90px;
     border: none;    
 }
+
+.section-flower{
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 106px;
+    
+}
+/* .flower-image{
+    max-width: 540px;
+    max-height: 597px;
+} */
+
+.flower-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.flower-container{
+    align-items: center;
+    gap: 20px;
+    
+}
+.text-contai{
+    margin-bottom: 20px;
+}
+.trusted-badge{
+    margin-left: 360px;
+    margin-top: -750px;
+    border: none;
+}
+.trusted-badge-image{
+    width: 286px;
+    height: 286px;
+    border: none;
+}
+.section-deals{
+    max-width: 1440px;
+    margin: o auto;
+    text-align: center;
+    gap: 120px;
+}
+.deal-title{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.deals-description{
+    margin-top: -30px;
+}
+.plant-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: #C8C8C8;
+    gap: 28px;
+    margin-top: 120px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bloom-image{
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+
+/* .ana-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ana-description{
+     font-weight: 400;
+     font-size: 16px;
+     margin-bottom: 28px;
+} */
+
+.zabo-image{
+    border-radius: 22px;    
+}
+.zabo-title{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.zabo-description{
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -35px;
+}
+
+
+
