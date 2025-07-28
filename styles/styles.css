@@ -133,11 +133,12 @@ main{
     margin: 0 auto;
     gap: 106px;
     
+    
 }
-/* .flower-image{
-    max-width: 540px;
-    max-height: 597px;
-} */
+.flower-image{
+    width: 540px;
+    height: 597px;
+}
 
 .flower-title{
     font-weight: bold;
@@ -148,6 +149,9 @@ main{
     gap: 20px;
     
 }
+/* .flower-image-container{
+    gap: 50px;
+} */
 .text-contai{
     margin-bottom: 20px;
 }
@@ -155,6 +159,8 @@ main{
     margin-left: 360px;
     margin-top: -750px;
     border: none;
+    margin-right: -100px;
+    
 }
 .trusted-badge-image{
     width: 286px;
@@ -166,6 +172,7 @@ main{
     margin: o auto;
     text-align: center;
     gap: 120px;
+    margin-top: 200px;
 }
 .deal-title{
     font-weight: bold;
@@ -280,6 +287,22 @@ main{
 }
 
 
-@media screen and  {
-    
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-link,
+    .banner,
+    .plants-container,
+    .section-flower,
+    .plant-container,
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .plants-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-flower{
+        grid-template-columns: 1fr;
+    }
+
 }
