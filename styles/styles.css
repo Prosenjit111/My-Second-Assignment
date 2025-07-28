@@ -224,6 +224,62 @@ main{
     text-align: center;
     margin-top: -35px;
 }
+.section-colorful{
+    width: 1440px;
+    height: 533px;
+    background-image: url(../assets/news-letter-bg.png);
+    align-content: center;
+    margin-top: 120px;
+}
+.colorful-content{
+    text-align: center;
+}
+.colorful-title{
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.colorful-description{
+    width: 600px;
+    height: 50px;
+    border: none;
+}
+.subs{
+    width: 186px;
+    height: 50px;
+    border: none;
+    margin-left: -5px;
+}
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 116px;
+}
+
+.nav-items{
+    list-style: none;
+    margin-bottom: 26px;
+    
+}
+.nav-linkss{
+    text-decoration: none;
+    font-weight: 500;
+}
+.twitter{
+    margin-bottom: -600px;
+}
+
+.logo-image{
+    margin-right: 21px;
+}
 
 
-
+@media screen and  {
+    
+}
